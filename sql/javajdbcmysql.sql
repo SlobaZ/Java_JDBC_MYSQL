@@ -1,6 +1,12 @@
-DROP SCHEMA IF EXISTS sablonmodul1;
-CREATE SCHEMA sablonmodul1 DEFAULT CHARACTER SET utf8;
-USE sablonmodul1;
+CREATE USER IF NOT EXISTS jwduser IDENTIFIED BY 'pass';
+
+DROP SCHEMA IF EXISTS javajdbcmysql;
+CREATE SCHEMA javajdbcmysql DEFAULT CHARACTER SET utf8;
+USE javajdbcmysql;
+
+GRANT ALL ON javajdbcmysql.* TO 'jwduser'@'%';
+
+FLUSH PRIVILEGES;
 
 CREATE TABLE korisnik (
 	korisnik_id INT AUTO_INCREMENT,
