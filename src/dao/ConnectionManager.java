@@ -6,9 +6,9 @@ import java.sql.DriverManager;
 public class ConnectionManager {
 
 	
-	private static final String DATABASE = "localhost:3306/sablonmodul1";
-	private static final String USER_NAME = "root";
-	private static final String PASSWORD = "root";
+	private static final String DATABASE = "localhost:3306/javajdbcmysql";
+	private static final String USER_NAME = "jwduser";
+	private static final String PASSWORD = "pass";
 	
 	private static Connection connection;
 	
