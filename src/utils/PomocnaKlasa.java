@@ -20,7 +20,7 @@ public class PomocnaKlasa {
 		}
 	
 	
-	//citanje promenljive String
+	// citanje promenljive String
 	public static String ocitajTekst(){
 		String tekst = "";
 		while(tekst == null || tekst.equals(""))
