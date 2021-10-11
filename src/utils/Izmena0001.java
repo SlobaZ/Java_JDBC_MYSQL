@@ -12,7 +12,7 @@ public class PomocnaKlasa {
 	static Scanner sc = new Scanner(System.in);
 	
 	
-	// PUTANJA DO FAJLA (u folderu data) ZA EXCEL
+	// PUTANJA DO FAJLA (u folderu data) ZA EXCEL qqQQQqqqqqqQQQQQqqqq
 	public static String vratiRelativnuPutanjuDoFajla(String fileName) {
 		String separatorPutanje = System.getProperty("file.separator");
 		String relativnaPutanja = "." + separatorPutanje + "data" + separatorPutanje + fileName;
