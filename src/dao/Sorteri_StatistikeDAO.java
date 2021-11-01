@@ -15,7 +15,7 @@ import model.Proizvod;
 public class Sorteri_StatistikeDAO {
 
 	
-//  SVE  KUPOVINE  SORTIRANE PO NAZIVU LEKA
+//  SVE  KUPOVINE  SORTIRANE PO NAZIVU PROIZVODA
 	public static List<Kupovina> getKupovinaByNazivProizvoda() throws Exception {
 		List<Kupovina> sveKupovineProizvoda = new ArrayList<>();
 
